@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --colorthemeA: #295467;
+    --colorthemeB: #4790af;
+    --lightblack: #515c6f;
+    --white: $fff;
+    --darkwhite: #cecaca;
+    --themeshadow: #4790af;
+    --lightshadow: rgba(0,0,00.15);
+}
+
+body{
+    /* background-color: rgb(0 0 0 / 85%); */
+    /* background: linear-gradient(var(--colorthemeA) 50%, var(--colorthemeB) 100%);
+     */
+     background-image: url("live\ wallpaper\ ☺️.jpeg");
+     background-repeat: no-repeat;
+     background-size: cover;
+    color: azure;
+}
+
+.container{
+    background-color: var(--white);
+    text-align: center;
+    box-shadow: 1px 0px 25px rgb(241 41 6);
+    padding: 25px 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin: 20px 480px 0px 480px;
+    height: 100%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 40px;
+}
+
+input.progress {
+    width: 90%;
+    margin-top: 5px;
+    height: 6px;
+}
+
+.controls{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    align-items: center;
+    cursor: pointer;
+    color: var(--colorthemeB);
+}
+
+#playbtn{
+    font-size: 30px;
+    /* background-color: var(--colorthemeB); */
+    background: linear-gradient(var(--colorthemeA) 50%, var(--colorthemeB) 100%);
+    color: var(--darkwhite);
+    padding: 15px;
+    width: 55px;
+    border-radius: 100%;
+}
+
+#periviousbtn, #nextsongbtn{
+    font-size: 25px;
+}
+
+h3.artist {
+    padding-top: 20px;
+}
+.inputs{
+    display: flex;
+    margin-top: 84px;
+}
